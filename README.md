@@ -15,7 +15,7 @@ A **NiFi cookbook** for visual dataflow, ingestion, and feed-to-PostGIS pipeline
 
 ## Repository role and status
 
-**Status:** Active, public — seeding. Pattern passes land in follow-up work from fleet-verified setups; the tables below list what is planned, not what is already written.
+**Status:** Active, public — first pattern pass written (design-only, gate 1 target; runtime validation pending).
 
 **What this repository is:** NiFi patterns — see the table below.
 
@@ -33,14 +33,14 @@ Data engineers who build ingestion flows visually and need them running as servi
 - Java 21 runtime
 - PostGIS-backed Postgres for the feed pass
 
-## Patterns (planned)
+## Patterns
 
-| # | Example | What it will demonstrate |
-|---|---------|--------------------------|
-| 01 | `01-first-flow` | Building a first flow: processors, connections, and queues |
-| 02 | `02-processors` | Common processors for files, HTTP, and databases |
-| 03 | `03-feed-to-postgis` | A feed-to-PostGIS flow, as run on the fleet |
-| 04 | `04-service-deploy` | Running NiFi as a Windows service, including the NSSM-direct-JVM route where the bootstrap is unusable |
+| # | Example | Status | What it demonstrates |
+|---|---------|--------|----------------------|
+| 01 | [01-first-flow](examples/01-first-flow/README.md) | Written (design-only) | Building a first flow: processors, connections, and queues |
+| 02 | [02-processors](examples/02-processors/README.md) | Written (design-only) | Common processors for files, HTTP, and databases |
+| 03 | [03-feed-to-postgis](examples/03-feed-to-postgis/README.md) | Written (design-only) | A feed-to-PostGIS flow, as run on the fleet |
+| 04 | [04-service-deploy](examples/04-service-deploy/README.md) | Written (design-only) | Running NiFi as a Windows service, including the NSSM-direct-JVM route where the bootstrap is unusable |
 
 ## Repository layout
 
