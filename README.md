@@ -11,7 +11,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A **NiFi cookbook** for visual dataflow, ingestion, and feed-to-PostGIS pipelines. Patterns are drawn from the ZQM fleet's NiFi 2.12.0 installs (HTTPS port 8443) on Node-1 and Node-3, including the service-deployment differences between nodes and the localhost-only probe rule. It is intended for Data engineers who build ingestion flows visually and need them running as services. Validate each pattern against your own data, software versions, and operating environment before adopting it.
+A **NiFi cookbook** for visual dataflow, ingestion, and feed-to-PostGIS pipelines. Patterns are drawn from the ZQM fleet's NiFi 2.12.0 installs (HTTPS port 8443) on Node-1 and Node-3 (as of Oct 2026; verify against the current fleet), including the service-deployment differences between nodes and the localhost-only probe rule. It is intended for Data engineers who build ingestion flows visually and need them running as services. Validate each pattern against your own data, software versions, and operating environment before adopting it.
 
 ## Repository role and status
 
